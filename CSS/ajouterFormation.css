@@ -1,0 +1,74 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    color: #495057;
+}
+
+/* Style du titre principal */
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin: 50px;
+}
+
+/* Centrer le formulaire sur la page */
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style général des éléments select (menus déroulants) */
+select {
+    width: 100%; /* Utilise toute la largeur disponible */
+    padding: 8px 10px; /* Padding pour un meilleur confort visuel */
+    margin-bottom: 15px; /* Espace en dessous du menu pour éviter que les éléments soient trop serrés */
+    border-color: #ccc;
+    border-radius: 5px;
+}
+
+/* Style des labels */
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+    color: #343a40;
+}
+
+/* Style des champs de saisie et des zones de texte */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Effet au survol du bouton */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

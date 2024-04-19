@@ -1,0 +1,59 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    color: #333;
+}
+
+/* Style du titre principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin: 50px;
+}
+
+/* Styles pour le tableau */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+/* En-têtes du tableau */
+th {
+    background-color: #313131;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* Cellules du tableau */
+td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Style pour les cellules vides lorsque le tableau est vide */
+td[colspan="8"] {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #999;
+}
+
+button {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: rgb(212, 212, 212);
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #9c9c9c;
+}

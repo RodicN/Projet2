@@ -1,0 +1,79 @@
+/* Style général pour tout le corps du document */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Style du titre principal */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styles pour les formulaires */
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style général des éléments select (menus déroulants) */
+select {
+    width: 100%; /* Utilise toute la largeur disponible */
+    padding: 8px 10px; /* Padding pour un meilleur confort visuel */
+    margin-bottom: 15px; /* Espace en dessous du menu pour éviter que les éléments soient trop serrés */
+    border-color: #ccc;
+    border-radius: 5px;
+}
+
+/* Styles pour les labels des champs de formulaire */
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styles pour les champs de saisie, zones de texte et sélecteurs */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 97%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Styles pour le bouton de soumission */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Effet hover pour le bouton */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
