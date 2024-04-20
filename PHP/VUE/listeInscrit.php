@@ -1,19 +1,18 @@
 <?php
     session_start();
+    
+    error_reporting(E_ALL);
+    ini_set("display_errors", 1);
 
     if(!$_SESSION['ID_Participant']){
         header('Location: connexion.php');
         exit;
     }
 
-?>
-<?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-include '../MODELE/bd.inscription.inc.php';  // Assurez-vous que ce fichier contient toutes vos fonctions de connexion à la base de données et autres fonctions de base de données.
-include '../MODELE/bd.session.inc.php';  // Assurez-vous que ce fichier contient toutes vos fonctions de connexion à la base de données et autres fonctions de base de données.
-$idParticipant = $_SESSION['ID_Participant'];
-$participants = getInscriptionByIdP($idParticipant);
+    include '../MODELE/bd.inscription.inc.php';
+    include '../MODELE/bd.session.inc.php';
+    $idParticipant = $_SESSION['ID_Participant'];
+    $participants = getInscriptionByIdP($idParticipant);
 ?>
 
 <!DOCTYPE html>

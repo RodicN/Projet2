@@ -1,14 +1,13 @@
 <?php
     session_start();
-?>
-<?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
 
-include '../MODELE/bd.formation.inc.php';
+    error_reporting(E_ALL);
+    ini_set("display_errors", 1);
 
-// Récupération des formations pour affichage
-$formations = getFormation();
+    include '../MODELE/bd.formation.inc.php';
+
+    // Récupération des formations pour affichage
+    $formations = getFormation();
 
 ?>
 

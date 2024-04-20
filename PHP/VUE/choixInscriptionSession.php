@@ -5,16 +5,14 @@
         header('Location: connexion.php');
         exit;
     }
-?>
-<?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
 
-include '../MODELE/bd.session.inc.php'; // Inclut le script de connexion à la base de données
+    error_reporting(E_ALL);
+    ini_set("display_errors", 1);
 
-// Récupération des sessions pour affichage
-$sessions = getSession();
+    include ('../MODELE/bd.session.inc.php');
 
+    // Récupération des sessions pour affichage
+    $sessions = getSession();
 ?>
 
 <!DOCTYPE html>

@@ -9,7 +9,6 @@
 <body>
     <nav>
         <div class="navbar">
-            <!-- <a href="index.php">Accueil</a> -->
             <a href="session.php">Voir Sessions</a>
             <a href="ajouterSession.php">Ajouter Session</a>
             <a href="catalogue.php">Voir Formations</a>

@@ -25,9 +25,9 @@ form {
 
 /* Style général des éléments select (menus déroulants) */
 select {
-    width: 100%; /* Utilise toute la largeur disponible */
-    padding: 8px 10px; /* Padding pour un meilleur confort visuel */
-    margin-bottom: 15px; /* Espace en dessous du menu pour éviter que les éléments soient trop serrés */
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
     border-color: #ccc;
     border-radius: 5px;
 }
